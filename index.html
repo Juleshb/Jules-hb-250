@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>my web</title>
+       
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+       
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+            
+        
+    </head>
+    <body>
+
+        <center>
+        <nav>
+            <div class="nav-c">
+
+                <span>
+                    <!-- <h1>Give us a call:</h1> -->
+                    ☎︎ +250 789 028 283 </span>
+                <span>
+                    <!-- <h1>Send us a mail:</h1> -->
+                    📨 habaruremajules@gmail.com</span>
+                    <div class="icons" id="icn">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        
+                  
+                    </div>
+            </div>
+            
+            <div class="nav-bar">
+               
+                <span class="navLogo"><a href="#">Jules hb <label style="color: rgba(53, 109, 251, 1);">2</label><label style="color: rgba(200, 203, 38, 1);">5</label><label style="color: rgba(20, 169, 21, 1);">0</label></a></span>
+
+                <div class="menu">
+                    
+                    <ul class="nav-links">
+                         <li><a href="index.html">Home</a></li>
+                        <li><a href="#sk">Skill</a></li>
+                        <li><a href="#pr">Services</a></li>
+                        <li><a href="#cnt">Contact mes</a></li>
+                        <li><a href="blog.html">My blog</a></li>
+                    </ul>
+                </div>
+    
+               
+            </div>
+        </nav>
+        
+    </div>
+</div> 
+
+<div class="about" id="bout">
+    <br>
+    <br>
+    <h1>Hi 🙌!<br>I am Jules </h1>
+    <!-- <img src="ll.jpg"> -->
+    
+    <p class="par">I am software Developer 
+        <br>I am interested in JAvaScript, HTML, PHP and sql. 
+        <br>I am Product Designer with 5 years experience, 
+        <br>focusing in User Interface and User Experience. 
+        <br>I am also a proud dog dad, and a board game enthusiast.
+    <hr>
+    <button class="cv" onclick=" window.location.href = 'https:docs.google.com/document/d/1AiXRsnZdcQW3v42AP7y_RC1hlTNamyAl/edit?usp=sharing&ouid=104756717043276303229&rtpof=true&sd=true'">View my CV</button>
+</p>
+        
+    
+    
+                    </div>
+
+        <h1 id="h"><center>Skills 📚</center></h1>
+
+<div class="skills" id="sk">
+    <p class="par">I have skills in different languages
+        <br>HTML (Hyper Tet Markup Language),
+        <br>JS (Javascript),
+        <br>PHP (Hypertext Preprocessor), 
+        <br>Structured Query Language (SQL) and
+        <br>Cascading Style Sheets (CSS).
+    </p>
+    <img src="sk.png" class="img">
+    <p class="par">I have skills in different languages
+        <br>HTML (Hyper Tet Markup Language),
+        <br>JS (Javascript),
+        <br>PHP (Hypertext Preprocessor), 
+        <br>Structured Query Language (SQL) and
+        <br>Cascading Style Sheets (CSS).
+    </p>
+    
+    
+
+</div>
+<h1><center>Our servises🧑‍💻</center></h1>
+<div class="project" id="pr">
+    
+    <div class="project" id="pr"></div>
+    
+    <p>
+        <img src="dm.png"><br>
+        <b>Digital Marketing</b>
+        <br>
+        
+        <br>Digital Marketing Services At Your Fingertips Social Media Management, 
+        <i id="dm"></i>
+        
+        <br>
+        <button onclick="document.getElementById('dm').innerHTML = 'Social Media Advertising, PPC Management, Search Engine Optimization, Email & Content  Marketing'">LEARN MORE</button> 
+        </p>
+
+        <p><img src="host.png"><br>
+            <b>Web Design & Hosting</b>
+            <br>
+            
+            <br>Get online fast. From simple to complex, our website design team will create,
+            <i id="dh"></i> 
+            <br>
+            <button onclick="document.getElementById('dh').innerHTML = 'host, and update the site for you. From domain names, hosting, web design, SSL security, email addresses, SEO, and logo design'">LEARN MORE</button> 
+        </p>
+
+            <p><img src="sd.png"><br>
+                <b>Software Development</b>
+                <br>
+                <br>
+            
+                
+                From consulting to the end-to-end development of scalable solutions, we deliver 
+                <i id="sd"></i> 
+
+                <br>
+                <button onclick="document.getElementById('sd').innerHTML = 'software development services that fit your project requirements and business needs.'">LEARN MORE</button> 
+            </p>
+                <p><img src="net.png"><br>
+                    <b>Networking Solutions & Services</b>
+                    <i id="ns"></i> 
+
+                    <br>
+                    
+                    <br>We evaluate customer’s requirements and determine the kind of ideal 
+                    <br>
+                    <button onclick="document.getElementById('ns').innerHTML = 'networking solutions. We deploy best and branded equipment with top-notch networking infrastructure to achieve optimum performance.'">LEARN MORE</button> 
+                </p>
+
+        
+</div>
+<center>
+<div class="contact" id="cnt">
+   
+    
+<div class="form">
+    
+    <form method="post" id="post" onsubmit="SendEmail(); reset(); return false">
+    <input type="name" id="name" name="name" placeholder="Enter Full Name" required>
+    <input type="email" id="email" name="email" placeholder="Enter Email Here" required>
+    <input type="phone" id="phone" name="phone" placeholder="Enter your phone number" required>
+    <input type="Text" id="sms" name="sms" placeholder="Message" required>
+    <button class="btnn">Send</button>
+   
+    <div class="icons">
+         <p>Also follow me on:</p>
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        
+    </form>
+    </div>
+    
+
+</div>
+<!-- <p class="cnt"><b>Contact me</b>
+    <br>
+    
+    <br>📌 Rubavu /Gisenyi/Rwanda
+    <br>☎️ +250 789 028 283 
+    <br>✉️ <i class="fa-duotone fa-envelope-open-text"></i>habaruremajules@gmail.com
+     
+    </p> -->
+</div>
+</center>
+        </center>
+
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        <script src="https://kit.fontawesome.com/00b9249d25.js" crossorigin="anonymous"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendEmail() {
+                Email.send({
+    Host : "smtp.gmail.com",
+    Username : "habaruremajules@gmail.com",
+    Password : "Jules2020",
+    To : 'habaruremajules@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "Customers",
+    Body : "Name:" + document.getElementById("name").value
+    + "<br> Email: " + document.getElementById("email").value
+    + "<br> Phone no: " + document.getElementById("phone").value
+    + "<br> Message: " + document.getElementById("sms").value
+}).then(
+  message => alert("Mesege sent succesfully")
+);
+                
+            }
+        </script>
+    
+</body>
+</html>

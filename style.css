@@ -23,7 +23,7 @@
 
 /* ===== Colours ===== */
 :root{
-    --body-color: #E4E9F7;
+    --body-color: #8adf8873;
     --nav-color: #53bb50;
     --side-nav: #010718;
     --text-color: #FFF;
@@ -299,6 +299,9 @@ hr{
     margin-top: 30px;
     font-family: sans-serif;
 }
+#sms{
+    width: 480px;
+}
 
 .form input:focus{
     outline: none;
@@ -363,7 +366,7 @@ hr{
 /*to day*/
 
 .about{
-  margin-top: 108px;
+  margin-top: 70px;
   display:inline-block;
   width: 100%;
   background:linear-gradient(rgba(19, 17, 17, 0.5), rgba(7, 6, 6, 0.5)), url("sd.jpeg")no-repeat center;
@@ -414,6 +417,7 @@ margin-right: 20px;
 
 .skills{
     display: flex;
+   
     
 
 }
@@ -473,7 +477,7 @@ padding: 20px;
     margin-top: 20px;
     margin-left: 20px;
     border: 2px solid #4CAF50;
-    transition: 0.3s ease;
+    transition: 1Ss ease;
     margin-bottom: 20px;
     padding-right: 10px;
     margin-right: 20px;
@@ -483,7 +487,7 @@ padding: 20px;
 .project p:hover{
     font-size: 18px;
     background:#4caf4f94;
-    transition: 0.3s ease;
+    transition: 1s ease;
     cursor: pointer;
     transform: rotateZ(360deg);
     
@@ -515,6 +519,7 @@ padding: 20px;
 .contact{
     background: #393a38;
     display: flex;
+    padding: 10px;
     
 }
 .contact h1{
@@ -538,6 +543,9 @@ padding: 20px;
 }
 .cnt{
     margin-right: 20px;
+}
+.mapouter{
+ padding-top: 20px;
 }
 @media (max-width: 1007px) {
     .nav-c{
@@ -623,6 +631,8 @@ padding: 20px;
         display: flex;
     }
 }
+
+
 @media (max-width: 650px) {
     
     .about{
@@ -662,4 +672,8 @@ padding: 20px;
         font-size: 12px;
     }
 }
-
+@media (max-width: 530px){
+    #sms{
+        width: 240px;
+    }
+}

@@ -42,7 +42,9 @@ body{
 
 }
 
-    
+  a{
+    text-decoration: none;
+  }  
 
 
 nav{
@@ -767,7 +769,7 @@ padding: 20px;
 }
 .fotter{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.747);
+    background-color: rgba(0, 0, 0, 0.329);
     color: #E2E7E0;
 }
 .fotter p{
